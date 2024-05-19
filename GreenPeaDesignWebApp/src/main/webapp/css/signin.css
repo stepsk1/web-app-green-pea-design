@@ -1,0 +1,203 @@
+.main-sign-up-wrap
+{
+    color: #0d0e0e;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+}
+
+.sign-up-wrap
+{
+    background-color: #fff;
+    width: 28rem;
+    height: 40rem;
+    box-shadow: 0 10px 30px -15px rgba(0,0,0,.2);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+    font-size: 1.2rem;
+    text-align: center;
+    word-break: break-word;
+    word-wrap: break-word;
+    overflow: hidden;
+    line-height: 1.27;
+}
+
+.sign-up-form
+{
+    /* background-color: bisque; */
+
+    width: 25rem;
+    height: 15rem;
+
+    color: #7d8585;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    margin-bottom: 10rem;
+}
+
+.sign-up-title
+{
+    font-size: 3rem;
+    font-family: 'Lato';
+    font-weight: 900;
+}
+
+.sign-up-wrap-bottom
+{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    /* background-color: darkred; */
+    width: 20vw;
+    text-align: center;
+    word-break: break-word;
+    word-wrap: break-word;
+    overflow: hidden;
+    line-height: 1.27;
+}
+
+.sign-up-form div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sign-up-form label
+{
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.sign-up-form button
+{
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    border-radius: 2rem;
+    background-color: #008228;
+    color: #f2f2f2;
+    transition: background-color .2s,opacity .2s;
+}
+
+.sign-up-form button:hover
+{
+    background-color: #5bbc2f;
+    transition: all .2s,opacity .2s;
+    box-shadow: 4px 4px 14px rgba(0,0,0,.2);
+}
+
+.sign-up-form input
+{
+    width: 95%;
+    padding: 0.5rem 0.5rem;
+}
+
+.sign-up-wrap-bottom a
+{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:#008228;
+    transition: all .2s;
+}
+
+.sign-up-wrap-bottom a:hover
+{
+    color:#5bbc2f;
+    text-decoration: underline;
+}
+
+.forgot-password a
+{
+    margin-top: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #008228;
+    transition: all .2s;
+}
+
+.forgot-password a:hover
+{
+    color:#5bbc2f;
+    text-decoration: underline;
+}
+
+.sign-up-title p
+{
+    width: 20rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:#7d8585;
+}
+
+.reset-password-wrap
+{
+    background-color: #fff;
+    width: 28rem;
+    height: 28rem;
+    box-shadow: 0 10px 30px -15px rgba(0,0,0,.2);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+    font-size: 1.2rem;
+    text-align: center;
+    word-break: break-word;
+    word-wrap: break-word;
+    overflow: hidden;
+    line-height: 1.27;
+
+    padding-top: 3rem;
+}
+
+.reset-password-response-wrap
+{
+    background-color: #fff;
+    width: 28rem;
+    height: 28rem;
+    box-shadow: 0 10px 30px -15px rgba(0,0,0,.2);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    line-height: 1.27;
+}
+
+.reset-password-response-title
+{
+    font-size: 2rem;
+    font-family: 'Lato';
+    font-weight: 900;
+}
+
+.reset-password-response-title p
+{
+    width: 20rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:#7d8585;
+}
+
+.reset-password-email
+{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
